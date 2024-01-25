@@ -19,7 +19,7 @@ public class LoginTests extends BaseTest {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        String url = "https://qa.koel.app/";
+        String url = "testpro.io";
         driver.get(url);
         WebElement emailInput = driver.findElement(By.cssSelector("[type='email']"));
         WebElement passwordInput = driver.findElement(By.cssSelector("[type='password']"));
@@ -40,7 +40,7 @@ public class LoginTests extends BaseTest {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        String url = "https://qa.koel.app/";
+        String url = "testpro.io";
         driver.get(url);
 
         WebElement logo = driver.findElement(By.cssSelector(".logo"));
